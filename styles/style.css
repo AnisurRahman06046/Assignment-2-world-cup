@@ -156,7 +156,6 @@ body{
     width: 100px;
     margin-top: 100px;
     margin-left: 45%;
-    border: 1px solid red;
     text-decoration: none;
     background-color: red;
     padding-top: 15px;
@@ -259,15 +258,7 @@ body{
     
 }
 
-/* @media only screen and (min-width:993px) and (max-width:1310px) {
-    .view-all{
-        visibility: hidden;
-    }
-    #view-btn{
-        visibility: hidden;
-    }
-    
-} */
+
 
 /* responsive part for mobile devices */
 
@@ -363,19 +354,33 @@ body{
 @media screen and (min-width:689px) and (max-width:992px) {
     .top-banner{
         display: flex;
-        /* grid-template-columns: repeat(1,1fr);
-        align-items: center; */
-        /* justify-content: center; */
-        width: 90%;
-        height: ;
+        grid-template-columns: repeat(1,1fr);
+        align-items: center;
+        justify-content: center;
+        width: 95%;
+        height: 0%;
+    }
+    .banner-text {
+        width: 60%;
+        margin-left: 25%;     
+    }
+    .watch-btn{
+        /* margin-left: 9%; */
+    }
+    #banner-para{
+        width: 75%;
+        /* text-align: center; */
+    }
+    .banner-image{
+        margin-right: 2%;
+        width: 100%;
+        
     }
     .banner-image img{
         width: 100%;
-        height: 85%;
-        margin-right: 15%;
-        margin-top: 2%;
+        height: 100%;
+        
     }
-    
     .blog{
         margin-top: -5%;
         display: grid;
@@ -412,6 +417,11 @@ body{
         display: grid;
         grid-template-columns: repeat(2,1fr);
     }
+    .view-btn a{
+        color: white;
+        text-decoration: none;
+    }
+    
     .footer-container{
         height: 100%;
     }
