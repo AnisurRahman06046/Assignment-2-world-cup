@@ -105,13 +105,19 @@ body{
 .card-container{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-row-gap: 10px;
+    grid-row-gap: 24px;
+    grid-column-gap: 24px;
+    margin-left: 24px;
+            
 }
 .card-content{
-    border: 1px solid red;
+    /* border: 1px solid red; */
+    border-radius: 5px;
     width: 290px;
     height: 320px;
     margin-left: 10px;
+    box-shadow: 2px 2px 5px lightgray,
+    -2px -2px 5px lightgray;
     
 }
 .card-image img{
@@ -126,4 +132,51 @@ body{
     display: flex;
     gap: 10px;
 
+}
+
+/* footer style  */
+
+footer{
+    background-color: black;
+    height: 400px;
+}
+.footer-title{
+    border: 1px solid grey;
+    text-align: center;
+    
+    /* position: relative; */
+    /* left: 100px; */
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    border-top: hidden;
+    border-left: hidden;
+    border-right: hidden;
+    color: white;
+    padding-top: 50px;
+}
+.contacts-link{
+    color: ;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: center;
+}
+.social-contacts{
+    color: white;
+    text-decoration: none;
+}
+.social-media{
+    font-size: 30px;
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    grid-column-gap: 40px;
+    margin-top: 50px;
+    margin-left: 400px;
+    margin-right: 400px;
 }
