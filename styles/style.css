@@ -76,11 +76,11 @@ body{
 }
 
 .nav-container{
-    background-color: blueviolet;
+    background-color: rgb(50, 2, 95);
     width: 280px;
     height: 250px;
     border-radius: 15px;
-    border: 5px solid burlywood;
+    /* border: 5px solid burlywood; */
     
 }
 .nav-bar{
@@ -143,9 +143,12 @@ body{
 .card-icon{
     margin-left: 10px;
     display: flex;
+    flex-direction: row;
     gap: 10px;
+   
 
 }
+
 
 /* footer style  */
 
@@ -168,9 +171,11 @@ footer{
     border-right: hidden;
     color: white;
     padding-top: 50px;
+    font-family: 'Poppins';
+
 }
 .contacts-link{
-    color: ;
+    
     margin-top: 40px;
     text-align: center;
     display: flex;
@@ -179,10 +184,13 @@ footer{
     justify-content: center;
 }
 .social-contacts{
-    color: white;
+    color:#B9B9B9 ;
+    font-family: 'Poppins';
+    font-weight: 500;
+    font-size: 16px;
     text-decoration: none;
 }
-.social-media{
+.social-icon{
     font-size: 30px;
     /* border: 1px solid red; */
     display: flex;
