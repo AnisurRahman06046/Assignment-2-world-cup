@@ -28,18 +28,31 @@ body{
     width: 400px;
     color: white;
     margin-left: 30px;
-    font-family: 'Poppins';
-    font-size: 20px;
-}
-#banner-para{
-    font-size: 16px;
-    font-weight: 400;
-}
-.watch-btn{
-    margin-top: 25px;
     
 }
+#banner-title{
+    font-family: 'Poppins';
+    font-size: 40px;
+    font-weight: 700;
+}
+#banner-para{
+    /* font-family: 'Poppins'; */
+    font-size: 15px;
+   
+}
+.watch-btn{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+    
+    width: 200px;
+    text-align: center;
+}
+.arrow{
+    margin-left: 10px;
+}
 .banner-text a{
+    font-family: 'Poppins';
     color: white;
     text-decoration: none;
     background-color: #DD0000;
