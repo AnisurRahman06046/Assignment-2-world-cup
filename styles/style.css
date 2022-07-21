@@ -350,6 +350,8 @@ body{
     
 }
 
+
+
 /* responsive for tablet devices  */
 @media screen and (min-width:689px) and (max-width:992px) {
     .top-banner{
@@ -444,6 +446,6 @@ body{
         padding-bottom:5%;
         
     }
-    
-
 }
+
+/* responsive for tablet devices end */
